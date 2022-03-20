@@ -9,7 +9,8 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      {user?.token ? <InboxScreen /> : <LoginScreen onLogIn={logIn} />}
+      {/* {user?.token ? <InboxScreen /> : <LoginScreen onLogIn={logIn} />} */}
+      <InboxScreen />
     </ChakraProvider>
   );
 }
